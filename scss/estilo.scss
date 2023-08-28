@@ -1,0 +1,81 @@
+body {
+    margin: 0px;
+    background-color: rgb(201, 202, 202);
+
+header {
+    background-color: aliceblue;
+    font-size: 30px;
+    margin: 10px;
+    align-items: center;
+    justify-content: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    nav {
+        background-color: aliceblue;
+        
+        .logo {
+            max-width: 100%;
+            width: 200px;
+            height: 100%;
+          }
+        
+        li {
+            display: inline-block;
+
+            a {
+                text-decoration: none;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: 200px;
+                
+            }
+        }
+    }
+}
+main {
+
+    .card {
+        background-color: rgb(132, 201, 247);
+        padding: 2px;
+        margin: 10px;
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+
+    }  
+
+    .parrafo {
+        font-size: 25px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 25px;
+        padding: 10px 10px 80px;
+    
+    }
+      
+    .servicio {
+        border: 5px solid #f0f8fd;
+        padding: 0px;
+        text-align: center;
+    }
+      
+    .servicio img {
+        max-width: 100%;
+        width: 1080px;
+        height: 400px;
+    }
+}
+
+footer {
+    background-color: #000000d0;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0% 5px;
+  }
+
+}
