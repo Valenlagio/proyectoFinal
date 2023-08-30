@@ -32,7 +32,45 @@ header {
         }
     }
 }
-main {
+    main {
+    form {
+        margin-top: 20px;
+    }
+      
+    form input,
+    form textarea {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 3px;
+        border: 3px solid #ccc;
+    }
+      
+    form button {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+      
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+      
+    img {
+        width: 2400px;
+        height: 800px;
+    }
+    
+    button {
+      background-color: #333;
+    }
 
     .card {
         background-color: rgb(132, 201, 247);
@@ -71,7 +109,7 @@ main {
     }
 }
 
-footer {
+    footer {
     background-color: #000000d0;
     color: #ffffff;
     text-align: center;
@@ -79,3 +117,4 @@ footer {
   }
 
 }
+
